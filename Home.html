@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Club Portal</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#008080;
+  text-align:center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:8px;
+}
+
+body{
+background-image:url("Homebg.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:scrolling;
+}
+</style>
+</head>
+<body>
+<form action="admin" method="post">
+<center>
+<table>
+<tr>
+<td><h1 style="color: #9A1750;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCLUB PORTAL</h1></td>
+</tr>
+</center>
+<tr>
+<td><img src="image3.jpg" width=500 height=150></td>
+</tr>
+
+</table>
+<center>
+<ul>
+
+<li><a class="active" href="Home.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHome</a></li>
+  <li><a href="Centos.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCentOS</a></li>
+  <li><a href="MintOS.html"><center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMintOS</center></a></li>
+  <li><a href="RedHat.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRedHat</a></li>
+<li><a class="active" href="Startaclub.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStart a Club?</a></li>
+<li><a class="active" href="admin.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAdmin</a></li>
+
+  <li><a href="about.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAbout</a></li>
+ </ul>
+</center>
+</center>
+
+<table  align="center">
+<tr>
+<td colspan="1"></td>
+<td colspan="6">
+<script type="text/javascript">
+var image1=new Image()
+image1.src="banner.jpg"
+var image2=new Image()
+image2.src="ou1.jpg"
+var image3=new Image()
+image3.src="ou2.jpg"
+</script>
+<img src="banner.jpg" width=1200 height=350 name="slide">
+<script>
+var step=1
+function slideit()
+{
+	document.images.slide.src=eval("image"+step+".src")
+	if(step<3)
+		step++
+	else
+		step=1
+	setTimeout("slideit()",1200)
+}
+slideit()
+//-->
+</script>
+</td>
+<td colspan="1"></td>
+</tr>
+<table>
+<tr>
+<td> <center><h1></h1></center> </td>
+ </tr>
+<tr>
+ <td>
+</head>
+</form>
+</body>
+</html>
